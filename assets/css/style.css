@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Great+Vibes|Montserrat:300,400|Open+Sans:300,400");
+.heading-name {
+  width: 50%; }
+
 .cover-heading {
   font-family: "Great Vibes";
   color: #AA4246;
