@@ -1,7 +1,7 @@
 // including plugins
 var gulp = require('gulp'), 
 	uglify = require("gulp-uglify"),
-	minifyCss = require("gulp-minify-css"),
+	minifyCss = require("gulp-clean-css"),
 	sass = require('gulp-sass');
 
 // minify js

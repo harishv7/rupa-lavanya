@@ -1,27 +1,47 @@
-@import url("https://fonts.googleapis.com/css?family=Great+Vibes|Montserrat:300,400|Open+Sans:300,400");
-.heading-name {
-  width: 50%;
-  min-height: 50px;
-  height: auto; }
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes|Montserrat:300,400|Quicksand:300,400");
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: "Quicksand", "Open Sans", "Roboto", "Source Sans Pro", Arial, sans-serif; }
 
-.cover-heading {
-  font-family: "Great Vibes";
-  color: #AA4246;
-  font-size: 108px; }
-
-.cover-subtitle {
-  font-family: Montserrat;
-  font-size: 20px;
-  color: black; }
+p {
+  font-family: "Quicksand", "Open Sans", "Roboto", "Source Sans Pro", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 2; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Montserrat;
   font-weight: 300; }
 
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: "Open Sans", "Roboto", "Source Sans Pro", Arial, sans-serif; }
+.custom-hr {
+  border: 2px solid;
+  width: 10%; }
+
+.heading-name {
+  width: 50%;
+  min-height: 50px;
+  height: auto;
+  transform: rotate(-7deg); }
+
+.cover-heading {
+  font-family: "Great Vibes";
+  color: #fd5c63;
+  font-size: 108px; }
+
+.cover-subtitle {
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #3a6db4; }
+
+.section {
+  padding: 3em; }
+
+.section-heading {
+  font-size: 3.5em;
+  text-transform: uppercase; }
+
+.section-content {
+  padding-top: 3em; }
 
 .bg {
   /* The image used */
@@ -57,6 +77,13 @@ nav {
 
 .nav-link {
   color: white; }
+
+.services-img {
+  max-height: 400px;
+  padding: 1em; }
+
+.services-description {
+  font-size: 1em; }
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.7);
@@ -112,14 +139,14 @@ nav {
 .custom-btn-2 {
   display: inline-block;
   width: 200px;
-  padding: 15px;
+  padding: 10px;
   margin: 5px;
-  font-size: 16px;
-  color: #fff;
+  font-size: 14px;
+  color: #000;
   font-family: Montserrat;
-  background-color: #AA4246;
-  font-weight: 300;
-  border: solid #AA4246;
+  text-transform: uppercase;
+  background-color: #fff;
+  font-weight: 400;
   text-align: center;
   outline: none;
   text-decoration: none;
