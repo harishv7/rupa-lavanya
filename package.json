@@ -1,19 +1,18 @@
 {
-  "name": "rupa",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "gulp-minify-css": "^1.2.4",
-    "gulp-uglify": "^3.0.0"
-  },
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^4.0.1"
-  }
+	"name": "rupa",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {},
+	"devDependencies": {
+		"gulp": "^3.9.1",
+		"gulp-clean-css": "^3.9.4",
+		"gulp-sass": "^4.0.1",
+		"gulp-uglify": "^3.0.0"
+	}
 }
