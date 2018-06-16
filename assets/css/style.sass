@@ -5,9 +5,8 @@ $green:               #32cd32;
 $blue:                #1d90ff;
 
 $primary-color:       $blue;
-$secondary-color:     $yellow;
-
-$cover-heading-color: #fd5c63;
+$red: #fd5c63;
+$dark-color: #222;
 
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes|Montserrat:300,400|Quicksand:300,400');
@@ -19,7 +18,7 @@ body, html
 	height: 100%
 	margin: 0
 	font-family: $sans-serif
-	color: #222
+	color: $dark-color
 
 p
 	font-family: $sans-serif
@@ -42,13 +41,13 @@ h1, h2, h3, h4, h5, h6
 
 .cover-heading
 	font-family: "Great Vibes"
-	color: $cover-heading-color
+	color: $red
 	font-size: 108px;
 
 .cover-subtitle
 	font-family: Montserrat
 	font-size: 20px
-	color: #222
+	color: $dark-color
 
 .section
 	padding: 3em
@@ -96,7 +95,7 @@ nav
 	color: white
 
 .fixed-top.scrolled
-	background-color: #222 !important;
+	background-color: $dark-color !important;
 	transition: background-color 200ms linear;
 
 .services-img
@@ -108,6 +107,100 @@ nav
 
 .gallery-row
 	padding: 1em
+
+#text-carousel 
+	width: 100%;
+	height: auto;
+	padding: 50px;
+
+.carousel-inner
+	min-height: 500px
+
+.carousel-item.active 
+	display: block
+
+.carousel-content
+    color: black
+    display: flex
+    align-items: center
+
+.carousel-control-prev-icon, .carousel-control-next-icon
+	color: red
+
+.carousel-control-prev-icon:hover,
+.carousel-control-prev-icon:active,
+.carousel-control-next-icon:hover,
+.carousel-control-next-icon:active
+	color: $dark-color
+
+.testimonial-control-icons
+	color: red
+
+.carousel-indicators li
+	background-color: $red
+
+.carousel-indicators .active
+	background-color: $dark-color
+
+.testimonial-picture
+	height: 150px
+	margin: 1em
+
+.testimonial-name
+	font-weight: 400
+	font-size: 1em
+	text-transform: uppercase
+
+.testimonial-content
+	font-size: 1em
+
+.connect-icon
+	color: $dark-color
+
+#footer
+	background-color: $dark-color
+
+.footer-content
+	font-family: Montserrat
+	color: white
+
+.footer-link
+	color: white
+	text-transform: uppercase
+	font-size: 0.9em
+	margin: 2em
+	font-family: Montserrat
+	font-weight: 300
+
+.footer-link:hover
+	color: $red
+	text-decoration: none
+
+.custom-footer-hr
+	display: block
+	height: 1px
+	border: 0
+	border-top: 1px solid #fff
+	margin-left: auto
+	margin-right: auto
+	margin-top: 2em
+	max-width: 20%
+
+.credits
+	font-family: Montserrat
+	font-size: 0.8em
+	text-transform: uppercase
+	font-weight: 300
+
+.credits-link
+	color: $red
+	font-weight: 400
+	letter-spacing: 5px
+	font-size: 1.2em
+
+.credits-link:hover
+	color: white
+	text-decoration: none
 
 .overlay
 	background-color: rgba(0, 0, 0, 0.7)

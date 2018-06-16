@@ -1,0 +1,1 @@
+$(document).on("click",'[data-toggle="lightbox"]',function(o){o.preventDefault(),$(this).ekkoLightbox({wrapping:!0})}),$(function(){$(document).scroll(function(){var o=$(".fixed-top");o.toggleClass("scrolled",$(this).scrollTop()>o.height())})});
