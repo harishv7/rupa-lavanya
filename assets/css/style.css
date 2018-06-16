@@ -85,6 +85,15 @@ nav {
   background-color: #222 !important;
   transition: background-color 200ms linear; }
 
+#about-more {
+  display: none; }
+
+#about-full {
+  background-color: #fd5c63; }
+
+#about-full .card-body {
+  color: white; }
+
 .services-img {
   max-height: 400px;
   padding: 1em; }
@@ -263,25 +272,25 @@ nav {
   color: #fff;
   transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in; }
 
-.custom-btn {
+.custom-btn-3 {
   display: inline-block;
   width: 200px;
-  padding: 15px;
+  padding: 10px;
   margin: 5px;
-  font-size: 16px;
-  color: #AA4246;
+  font-size: 14px;
+  color: #fff;
   font-family: Montserrat;
-  background-color: transparent;
-  font-weight: 300;
-  border: solid #AA4246;
+  text-transform: uppercase;
+  background-color: #fd5c63;
+  font-weight: 400;
   text-align: center;
   outline: none;
   text-decoration: none;
   border-radius: 0; }
 
-.custom-btn:hover,
-.custom-btn:active {
-  background-color: #AA4246;
-  border-color: #AA4246;
-  color: #fff;
+.custom-btn-3:hover,
+.custom-btn-3:active {
+  background-color: #fff;
+  border-color: #fd5c63;
+  color: #fd5c63;
   transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in; }

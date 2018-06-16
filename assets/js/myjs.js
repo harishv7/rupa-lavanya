@@ -6,8 +6,12 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
 });
 
 $(function () {
-  $(document).scroll(function () {
-    var $nav = $(".fixed-top");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-  });
+	$(document).scroll(function () {
+		var $nav = $(".fixed-top");
+		$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+	});
+});
+
+$("#show-more-btn").click(function() {
+	$("#about-more").show();
 });
