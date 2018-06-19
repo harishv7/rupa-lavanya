@@ -17,3 +17,14 @@ $("#show-more-btn").click(function() {
 });
 
 var myLazyLoad = new LazyLoad();
+
+window.sr = ScrollReveal({
+	scale: 0.7,
+	duration: 700
+});
+sr.reveal('#about');
+sr.reveal('#services');
+sr.reveal('#portfolio');
+sr.reveal('#clients');
+sr.reveal('#connect');
+sr.reveal('#contact');
