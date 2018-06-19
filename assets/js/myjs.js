@@ -15,3 +15,5 @@ $(function () {
 $("#show-more-btn").click(function() {
 	$("#about-more").show();
 });
+
+var myLazyLoad = new LazyLoad();
