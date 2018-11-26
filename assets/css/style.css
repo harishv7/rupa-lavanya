@@ -224,7 +224,7 @@ nav {
   width: 100%;
   height: 100%;
   content: ' ';
-  background: rgba(21, 21, 21, 0.75); }
+  background: rgba(34, 34, 34, 0.75); }
 
 .filter-light {
   overflow: hidden;
@@ -299,3 +299,8 @@ nav {
   border-color: #fd5c63;
   color: #fd5c63;
   transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in; }
+
+#portfolio .gallery-row img {
+  -webkit-filter: grayscale(100%); }
+  #portfolio .gallery-row img:hover {
+    -webkit-filter: grayscale(0%); }
