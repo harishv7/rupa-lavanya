@@ -156,7 +156,8 @@ nav {
   font-size: 1em; }
 
 .connect-icon {
-  color: #222; }
+  color: #222;
+  padding: 0.7em; }
 
 #footer {
   background-color: #222; }
