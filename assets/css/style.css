@@ -22,8 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 .heading-name {
   width: 50%;
   min-height: 50px;
-  height: auto;
-  transform: rotate(-7deg); }
+  height: auto; }
 
 .cover-heading {
   font-family: "Great Vibes";
