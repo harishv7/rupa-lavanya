@@ -308,3 +308,9 @@ nav {
   -webkit-filter: grayscale(100%); }
   #portfolio .gallery-row img:hover {
     -webkit-filter: grayscale(0%); }
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
