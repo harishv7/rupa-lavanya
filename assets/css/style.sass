@@ -337,18 +337,20 @@ nav
 	transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in
 
 #portfolio .gallery-row img
-	-webkit-filter: grayscale(100%);
+	-webkit-filter: grayscale(100%)
 	&:hover
-		-webkit-filter: grayscale(0%);
+		-webkit-filter: grayscale(0%)
 
 .parallax
-	@media (min-width: 768px)	
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	@media (max-width: 767px)
-		background-size: cover;
+	@media (min-width: $break-medium)	
+		background-attachment: fixed
+		background-position: center
+		background-repeat: no-repeat
+		background-size: cover
+	@media (max-width: $break-medium)
+		background-position: center
+		background-repeat: no-repeat
+		background-size: cover
 
 .fab
 	color: white;
