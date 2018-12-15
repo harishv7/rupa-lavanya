@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function() {
 	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
 		event.preventDefault();
 		$(this).ekkoLightbox({
@@ -17,9 +17,18 @@ $(document).ready(function(){
 		$("#about-more").show();
 	});
 
+	/* Preload Images */
+	function preloadImages(arrOfImages) {
+		for(var i = 0; i < arrOfImages.length; i++) {
+			imageToLoad = new Image();
+			imageToLoad.src = './assets/images/bg-images/' + arrOfImages[i];
+		}
+	}
+	
 	function loadBg() {
 		var backgroundImages = ["cover.jpg", "IMG_4478.jpg", "IMG_4481.jpg", "IMG_4511.jpg", "IMG_4527.jpg", "KEL_7799.jpg", "KEL_8222.jpg"];
-
+		preloadImages(backgroundImages);
+		
 		var currIndex = 1;
 		setInterval(function() {
 			if(currIndex == backgroundImages.length) {
