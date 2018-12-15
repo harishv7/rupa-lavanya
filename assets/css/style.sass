@@ -8,6 +8,11 @@ $primary-color:       $blue;
 $red: #fd5c63;
 $dark-color: #222;
 
+// breaks for media queries
+$break-small: 320px;
+$break-medium: 768px;
+$break-large: 1200px;
+
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400|Quicksand:300,400|Nunito+Sans:300,400');
 $serif:               "Lora", "Playfair Display", Georgia, serif;
@@ -41,7 +46,6 @@ h1, h2, h3, h4, h5, h6
 	width: 50%
 	min-height: 50px
 	height: auto
-//	transform: rotate(-7deg)
 
 .cover-heading
 	font-family: "Great Vibes"
@@ -106,9 +110,13 @@ nav
 .nav-link
 	color: white
 
+.navbar-nav
+	@media screen and (max-width: $break-medium)
+		background-color: rgba(0, 0, 0, 0.7)
+
 .fixed-top.scrolled
-	background-color: $dark-color !important;
-	transition: background-color 200ms linear;
+	background-color: $dark-color !important
+	transition: background-color 200ms linear
 
 #about-more
 	display: none
